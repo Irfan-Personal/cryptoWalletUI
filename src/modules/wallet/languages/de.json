@@ -1,0 +1,35 @@
+{
+    "wallet": {
+        "title": "Startbildschirm",
+        "tokens": "Token",
+        "collectibles": "Sammlerstücke",
+        "send": "Schicken",
+        "receive": "Erhalten",
+        "noTokens": "Sie haben noch keine Token",
+        "transactTokens": "Kaufen oder erhalten Sie, um loszulegen",
+        "invalidAddressError": "Das ist eine ungültige Adresse",
+        "tokenDetails": {
+            "popularity":"Popularität",
+            "marketCap":"Marktkapitalisierung",
+            "24hVolume":"24-Stunden-Volumen",
+            "totalSupply":"Gesamtangebot",
+            "circulatingSupply":"Umlaufversorgung",
+            "chain":"Kette"
+        },
+        "receiveScreen": {
+            "copy": "Kopieren",
+            "share": "Aktie",
+            "myAddress": "Meine Adresse",
+            "supportedNetworks": "Unterstützte Netzwerke"
+        },
+        "sendScreen": {
+            "send": "Senden Sie",
+            "continue": "Weiter"
+        },
+        "useSendScreen": {
+            "send": "Senden Sie",
+            "enterAmount": "Betrag eingeben",
+            "enterAddress": "Adresse eingeben"
+        }
+    }
+}

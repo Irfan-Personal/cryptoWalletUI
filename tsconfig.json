@@ -1,0 +1,26 @@
+{
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "baseUrl": ".",
+    "paths": {
+      "~shared/*": ["src/modules/shared/*"],
+      "~token/*": ["src/modules/token/*"],
+      "~account/*": ["src/modules/account/*"],
+      "~transaction/*": ["src/modules/transaction/*"],
+      "~authentication/*": ["src/modules/authentication/*"],
+      "~wallet/*": ["src/modules/wallet/*"],
+      "~network/*": ["src/modules/network/*"],
+      "~src/*": ["src/*"],
+    },
+    "jsx": "react-native",
+    "tsBuildInfoFile": "node_modules/.cache/tsbuildinfo.json",
+    "incremental": true,
+    "types": ["jest", "nativewind/types",],
+    "typeRoots": ["./node_modules/@types", "./src/types"],
+    "downlevelIteration": true,
+  },
+  "include": [
+    "**/*.ts",
+    "**/*.tsx",
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "account": {
+    "profile": {
+      "title": "Profile",
+      "menuItems": {
+        "web3Browser": "Web 3 browser",
+        "contacts": "Contacts",
+        "settings": "Settings",
+        "walletConnect": "Wallet Connect",
+        "security": "Security",
+        "passpay": "Passpay",
+        "signOut": "Sign Out"
+      }
+    },
+    "recoveryPhoneNumberScreen":  {
+      "addAnotherPhoneNumber":"Add another phone number",
+      "enableRecovery": "Enable Recovery"
+    },
+    "security": {
+      "title": "Security",
+      "menuItems": {
+        "enableRecovery": "Enable Recovery",
+        "signWithPasskey": "Sign transaction with Passkey",
+        "unlockWithBiometrics": "Unlock app with {{biometricType}}"
+      }
+    }
+  }
+}

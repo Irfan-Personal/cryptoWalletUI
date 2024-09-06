@@ -1,0 +1,14 @@
+{
+  "shared": {
+    "successful": "Erfolgreich",
+    "blockHeight": "Blockhöhe",
+    "home": "Senden",
+    "receive": "Empfangen",
+    "activity": "Aktivität",
+    "retry": "Wiederholen",
+    "genericError": "Ein Fehler ist aufgetreten",
+    "navigation": {
+      "back": "Zurück"
+    }
+  }
+}

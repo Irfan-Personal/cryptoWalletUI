@@ -1,0 +1,35 @@
+{
+  "wallet": {
+    "title": "Home Screen",
+    "tokens": "Tokens",
+    "collectibles": "Collectibles",
+    "send": "Send",
+    "receive": "Receive",
+    "noTokens": "You don’t have any tokens yet",
+    "transactTokens": "Buy or receive to get started",
+    "invalidAddressError": "This is an invalid address",
+    "tokenDetails": {
+      "popularity":"Popularity",
+      "marketCap":"Market Cap",
+      "24hVolume":"24h Volume",
+      "totalSupply":"Total Supply",
+      "circulatingSupply":"Circulating Supply",
+      "chain":"Chain"
+    },
+    "receiveScreen": {
+      "copy": "Copy",
+      "share": "Share",
+      "myAddress": "My address",
+      "supportedNetworks": "Supported networks"
+    },
+    "sendScreen": {
+      "send": "Send",
+      "continue": "Continue"
+    },
+    "useSendScreen": {
+      "send": "Send",
+      "enterAmount": "Enter amount",
+      "enterAddress": "Enter address"
+    }
+  }
+}

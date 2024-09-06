@@ -1,0 +1,82 @@
+name: CI
+
+on:
+  push:
+
+jobs:
+  setup:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Set environment variables
+        id: set-env
+        run: echo "is_macos_runner=$(echo $RUNNER_OS | grep -iq 'macos' && echo 'true' || echo 'false')" >> $GITHUB_ENV
+        shell: bash
+
+  ci-android:
+    needs: setup
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.10.0'
+
+      - name: Install dependencies
+        run: |
+          yarn install
+          yarn global add react-native-cli
+
+      - name: Set Android SDK path
+        run: echo "sdk.dir=$ANDROID_HOME" > android/local.properties
+
+      - name: Security Check
+        run: |
+          set +e
+          yarn audit --level high
+          EXIT_CODE=$?
+          set -e
+          if [ $EXIT_CODE -ge 8 ]; then
+            exit 1
+          fi
+      - name: Run Jest unit tests
+        run: yarn test
+
+
+  ci-ios:
+    needs: setup
+    runs-on: macos-latest
+    #    if: needs.setup.outputs.is_macos_runner == 'true'
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.10.0'
+
+      - name: Install dependencies
+        run: |
+          yarn install
+          yarn global add react-native-cli
+
+      - name: Install iOS Pods
+        run: |
+          sudo gem install cocoapods
+          npx pod-install
+
+      - name: Security Check
+        run: |
+          set +e
+          yarn audit --level high
+          EXIT_CODE=$?
+          set -e
+          if [ $EXIT_CODE -ge 8 ]; then
+            exit 1
+          fi
+
+      - name: Run Jest unit tests
+        run: yarn test

@@ -1,0 +1,71 @@
+{
+  "project_info": {
+    "project_number": "256766475975",
+    "project_id": "pass-wallet-onchain",
+    "storage_bucket": "pass-wallet-onchain.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:256766475975:android:dec8d91d4b6ae7e8ab88e2",
+        "android_client_info": {
+          "package_name": "com.pass.wallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "256766475975-hdstk4r757kneaf2ngeo0okkojlbbuvg.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pass.wallet",
+            "certificate_hash": "5e8f16062ea3cd2c4a0d547876baa6f38cabf625"
+          }
+        },
+        {
+          "client_id": "256766475975-oq3mrp3d6sp6t9bfpfl59ai8c5q6isbd.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pass.wallet",
+            "certificate_hash": "f8cf511197888f967effa94de1a79ba42b83234b"
+          }
+        },
+        {
+          "client_id": "256766475975-s0b2jakblko6r5fco6q37g70hodj8to2.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.pass.wallet",
+            "certificate_hash": "eed7bd62f73b87c79a9d17c3c5f8b43f85434762"
+          }
+        },
+        {
+          "client_id": "256766475975-k8a7e429gfppp80g95sfs69uqdqosg40.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDidXkVjk7ExsOseAEB0r0SDqTE12UNpT0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "256766475975-k8a7e429gfppp80g95sfs69uqdqosg40.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "256766475975-e530n91jp4oe0ri0botqlqajivbjr706.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.pass.wallet",
+                "app_store_id": "6476185992"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

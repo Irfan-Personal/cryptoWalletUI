@@ -1,0 +1,24 @@
+{
+  "account": {
+    "profile": {
+      "title": "Profil",
+      "menuItems": {
+        "web3Browser": "Web 3-Browser",
+        "contacts": "Kontakte",
+        "settings": "Einstellungen",
+        "walletConnect": "Wallet verbinden",
+        "security": "Sicherheit",
+        "passpay": "Passpay",
+        "signOut": "Abmelden"
+      }
+    },
+    "security": {
+      "title": "Sicherheit",
+      "menuItems": {
+        "enableRecovery": "Wiederherstellung aktivieren",
+        "signWithPasskey": "Transaktion mit Passkey signieren",
+        "unlockWithBiometrics": "App mit {{biometricType}} entsperren"
+      }
+    }
+  }
+}

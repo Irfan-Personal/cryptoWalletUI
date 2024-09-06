@@ -1,0 +1,27 @@
+{
+  "transaction": {
+    "title": "Tätigkeit",
+    "noTransactions": {
+      "title": "Noch keine Aktivitäten",
+      "description": "Ihre Aktivitäten werden hier erscheinen, nachdem Sie Ihre erste Transaktion durchgeführt haben"
+    },
+    "transactionDetails": {
+      "title": "Transaktionsdetails",
+      "chainId": "Chain-ID: {{chainId}}",
+      "action": "Aktion",
+      "status": "Status",
+      "date": "Datum",
+      "fee": "Gebühr",
+      "explorerLink": "Explorer-Link"
+    },
+    "transactionTypes": {
+      "send": "Senden",
+      "receive": "Empfangen"
+    },
+    "transactionStatus": {
+      "failed": "Fehlgeschlagen",
+      "confirmed": "Erfolgreich",
+      "pending": "Ausstehend"
+    }
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "transaction": {
+    "title": "Activity",
+    "noTransactions": {
+      "title": "No activity yet",
+      "description": "Your activities will appear here after your first transaction"
+    },
+    "transactionDetails": {
+      "title": "Transaction details",
+      "chainId": "Chain ID: {{chainId}}",
+      "action": "Action",
+      "status": "Status",
+      "date": "Date",
+      "fee": "Fee",
+      "explorerLink": "Explorer Link"
+    },
+    "transactionTypes": {
+      "send": "Send",
+      "receive": "Receive"
+    },
+    "transactionStatus": {
+      "failed": "Failed",
+      "confirmed": "Successful",
+      "pending": "Pending"
+    }
+  }
+}

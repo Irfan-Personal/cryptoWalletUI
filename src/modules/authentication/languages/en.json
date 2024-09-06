@@ -1,0 +1,12 @@
+{
+  "authentication": {
+    "enablePasskey": {
+      "title": "Account security with passkey",
+      "stepOne": "Enable your passkey with your account to be able to sign transactions easily.",
+      "stepTwo": "Works on all your devices as soon as you sync them.",
+      "stepThree": "With just your passkey, you can use things like your fingerprint or face ID to log in.",
+      "buttonEnable": "Enable passkey",
+      "passkeyName": "Pass Wallet"
+    }
+  }
+}
